@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="input-container">
+  <input class="input" bindinput="selection_input" value="{{inputValue}}" type="number" placeholder="输入" />
+  </view>
+</view>

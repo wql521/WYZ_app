@@ -1,0 +1,21 @@
+/* 整个页面的容器 */
+.page {
+  display: flex;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
+  height: 100vh;            /* 容器高度为屏幕高度 */
+  margin: 0;                /* 去掉默认边距 */
+} 
+.input {
+  max-width: 400px;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 2px 2px 30px 2px lightgrey;
+}
+
+.input-container {
+  position: relative;
+  width: 80%; /* 控制输入框的宽度，可以根据需求调整 */
+  max-width: 500px; /* 最大宽度限制 */
+}
