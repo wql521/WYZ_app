@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/calculator/calculator"
+    "pages/calculator/calculator",
+    "pages/love/love",
+    "pages/love_success/love_success"
   ],
   "window": {
     "navigationBarTextStyle": "black",

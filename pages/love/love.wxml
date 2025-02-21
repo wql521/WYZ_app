@@ -1,0 +1,26 @@
+<view class="container">
+
+  <image src="{{love_images}}" mode="aspectFit"/>
+
+  <text class="question">可以成为我的恋人吗？</text>
+
+  <!-- 上面的按钮 -->
+  <button
+    class="top-button"
+    bindtap="handleTopButtonClick"
+    style="{{topButtonStyle}}"
+    
+    disabled="{{isTopButtonDisabled}}"
+  >
+  {{buttonText}} <!-- 动态绑定按钮文字 -->
+  </button>
+
+  <!-- 下面的按钮 -->
+  <button
+    class="bottom-button"
+    bind:tap="yesButtonClick"
+    style="{{bottomButtonStyle}}"
+  >
+    可以
+  </button>
+</view>

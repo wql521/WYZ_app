@@ -1,0 +1,6 @@
+<!--pages/love_success/love_success.wxml-->
+
+<view class="container">
+  <text class="love_success">!!!喜欢你!!💗</text>
+  <image src="/images/hug.png" mode="aspectFit"/>
+</view>

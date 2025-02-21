@@ -1,0 +1,17 @@
+/* pages/love_success/love_success.wxss */
+page {
+  background-color: #f1d5da; /* 设置背景颜色 */
+  height: 100%; /* 确保页面高度占满屏幕 */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.love_success{
+  font-size: 36px;
+  color: #68495b;
+}
